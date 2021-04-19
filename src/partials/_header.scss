@@ -4,6 +4,11 @@
     .avada {
         color: $brand-secondary;
         font-size: 12px;
+        .ios {
+            font-size: 8px;
+            padding: 0 4px;
+            margin-left: 6px;
+        }
     }
     .socials a{
         padding: 5px;
