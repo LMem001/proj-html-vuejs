@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     .avada {
-        color: $color-primary;
+        color: $brand-secondary;
         font-size: 12px;
     }
     .socials a{
@@ -19,5 +19,9 @@
     }
     li:not(:last-child) {
         margin-right: 60px;
+    }
+    .site_nav a.active {
+        padding: 5px 0;
+        border-bottom: 2px solid $brand-primary;
     }
 }

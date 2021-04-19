@@ -64,3 +64,7 @@ a {
 .menu li:not(:last-child) {
   margin-right: 60px;
 }
+.menu .site_nav a.active {
+  padding: 5px 0;
+  border-bottom: 2px solid #fc7525;
+}

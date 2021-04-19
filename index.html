@@ -49,7 +49,7 @@
                 <nav class="site_nav">
                     <ul>
                         <li v-for="page in menuLinks">
-                            <a :href="page.pageLink">{{ page.pageName }}</a>
+                            <a :href="page.pageLink" :class="{ 'active': page.currentPage == true }">{{ page.pageName }}</a>
                         </li>
                     </ul>
                 </nav>
