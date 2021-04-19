@@ -62,6 +62,20 @@ const app = new Vue ({
         ],
         articles: [
             {
+                images: {
+                    smallImg:"",
+                    bigImg:"single-post-img3-1200x790",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Food Corner: Top Japanese Restaurants for Sushi",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
                 images: [
                     "first",
                     "second",

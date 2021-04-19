@@ -43,6 +43,11 @@ li {
   text-transform: uppercase;
 }
 
+h1 {
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -84,16 +89,15 @@ a {
 
 .hero {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color: black;
   margin-top: 20px;
   margin-bottom: 300px;
 }
 .hero .todays_article {
-  width: 50%;
-  height: 150px;
-  background-color: pink;
+  width: 30%;
+  background-color: #fff;
   position: absolute;
   left: 50%;
   bottom: 50%;
@@ -106,9 +110,16 @@ a {
 }
 .hero .todays_article .container .brand_label {
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -55%);
   padding: 8px 15px;
   font-weight: 600;
+}
+.hero .todays_article .container h1 {
+  padding-top: 30px;
+}
+.hero .todays_article .container span {
+  display: block;
+  padding: 20px 0;
 }
 .hero .foodie_journal {
   width: 300px;

@@ -1,16 +1,15 @@
 .hero {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: black;
     margin-top: 20px;
     margin-bottom: 300px;
     .todays_article {
         // da cancellare
-        width: 50%;
-        height: 150px;
-        background-color: pink;
+        width: 30%;
         // da cancellare
+        background-color: #fff;
         position: absolute;
         left: 50%;
         bottom: 50%;
@@ -20,10 +19,17 @@
             position: relative;
             text-align: center;
             .brand_label {
-                position: absolute;
-                transform: translate(-50%, -50%);
-                padding: 8px 15px;
-                font-weight: 600;
+                    position: absolute;
+                    transform: translate(-50%, -55%);
+                    padding: 8px 15px;
+                    font-weight: 600;
+                }
+            h1 {
+                padding-top: 30px;
+            }
+            span {
+                display: block;
+                padding: 20px 0;
             }
         }
     }
