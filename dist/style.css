@@ -38,7 +38,7 @@ li {
 
 .brand_label {
   background-color: #fc7525;
-  border-radius: 10%;
+  border-radius: 10px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -60,6 +60,7 @@ a {
   font-size: 8px;
   padding: 0 4px;
   margin-left: 6px;
+  border-radius: 3px;
 }
 .appAndPages .socials a {
   padding: 5px;
@@ -82,7 +83,39 @@ a {
 }
 
 .hero {
+  position: relative;
   height: 100vh;
   width: 100%;
   background-color: black;
+  margin-top: 20px;
+}
+.hero .todays_article {
+  width: 50%;
+  height: 150px;
+  background-color: pink;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 7px;
+}
+.hero .todays_article .container {
+  position: relative;
+  text-align: center;
+}
+.hero .todays_article .container .brand_label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 8px 15px;
+  font-weight: 600;
+}
+.hero .foodie_journal {
+  width: 50%;
+  height: 150px;
+  background-color: brown;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  border-radius: 7px;
 }
