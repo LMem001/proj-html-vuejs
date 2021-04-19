@@ -16,6 +16,7 @@ body {
 
 .site_nav a {
   font-weight: 600;
+  color: #262628;
 }
 
 ul {
@@ -32,6 +33,7 @@ li {
 
 .socials a {
   font-size: 18px;
+  color: #afafaf;
 }
 
 a {
@@ -42,6 +44,10 @@ a {
 .appAndPages {
   display: flex;
   justify-content: space-between;
+}
+.appAndPages .avada {
+  color: #262628;
+  font-size: 12px;
 }
 .appAndPages .socials a {
   padding: 5px;

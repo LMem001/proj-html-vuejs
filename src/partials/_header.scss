@@ -1,6 +1,10 @@
 .appAndPages {
     display: flex;
     justify-content: space-between;
+    .avada {
+        color: $color-primary;
+        font-size: 12px;
+    }
     .socials a{
         padding: 5px;
     }
