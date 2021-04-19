@@ -1,6 +1,9 @@
 .appAndPages {
     display: flex;
     justify-content: space-between;
+    .socials a{
+        padding: 5px;
+    }
 }
 
 .menu {

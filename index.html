@@ -31,9 +31,12 @@
                     </ul>
                 </div>
                 <div class="socials">
-                    <ul>
-                        <li>link</li>
-                        <li>link</li>
+                    <ul v-show="socialLinks.length != 0">
+                        <li v-for="social in socialLinks" v-show="social.socialName!='Pinterest'">
+                            <a :href="social.socialLink">
+                                <i class="fab" :class="'fa-' + social.icon" ></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -43,12 +46,11 @@
                 <div class="logo">
                     <img src="img/avada-food-logo.png" alt="logo" href="#">
                 </div>
-                <nav>
+                <nav class="site_nav">
                     <ul>
-                        <li>link</li>
-                        <li>link</li>
-                        <li>link</li>
-                        <li>link</li>   
+                        <li v-for="page in menuLinks">
+                            <a :href="page.pageLink">{{ page.pageName }}</a>
+                        </li>
                     </ul>
                 </nav>
             </div>

@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 20px;
+  font-family: "Catamaran", sans-serif;
+}
+
 .container {
-  width: 85%;
+  width: 90%;
   margin: auto;
+}
+
+.site_nav a {
+  font-weight: 600;
 }
 
 ul {
@@ -21,9 +30,21 @@ li {
   margin-right: 15px;
 }
 
+.socials a {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 .appAndPages {
   display: flex;
   justify-content: space-between;
+}
+.appAndPages .socials a {
+  padding: 5px;
 }
 
 .menu {

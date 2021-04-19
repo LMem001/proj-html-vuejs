@@ -30,27 +30,27 @@ const app = new Vue ({
         socialLinks: [
             {
                 socialName: "Facebook",
-                icon: "",
+                icon: "facebook-f",
                 socialLink: "#"
             },
             {
                 socialName: "Instagram",
-                icon: "",
+                icon: "instagram",
                 socialLink: "#"
             },
             {
                 socialName: "Twitter",
-                icon: "",
+                icon: "twitter",
                 socialLink: "#"
             },
             {
                 socialName: "Youtube",
-                icon: "",
+                icon: "youtube",
                 socialLink: "#"
             },
             {
                 socialName: "Pinterest",
-                icon: "",
+                icon: "pinterest-p",
                 socialLink: "#"
             },
         ],

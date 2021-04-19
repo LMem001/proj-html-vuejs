@@ -5,12 +5,17 @@
 }
 
 body {
+    padding-top: 20px;
     font-family: 'Catamaran', sans-serif;
 }
 
 .container {
-    width: 85%;
+    width: 90%;
     margin: auto;
+}
+
+.site_nav a {
+    font-weight: 600;
 }
 
 ul {
@@ -23,6 +28,10 @@ li {
 
 .mr li:not(:last-child) {
     margin-right: 15px;
+}
+
+.socials a {
+    font-size: 18px;
 }
 
 // Typography
