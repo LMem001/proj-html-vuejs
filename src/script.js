@@ -62,7 +62,11 @@ const app = new Vue ({
         ],
         articles: [
             {
-                image: "#",
+                images: [
+                    "first",
+                    "second",
+                    "third"
+                ],
                 articleInfos: {
                     author: "admin",
                     date: "March 25th, 2019",
