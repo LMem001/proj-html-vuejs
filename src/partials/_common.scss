@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
 .container {
     width: 85%;
     margin: auto;
 }
 
-// Typography
 ul {
     display:flex;
 }
@@ -21,3 +24,11 @@ li {
 .mr li:not(:last-child) {
     margin-right: 15px;
 }
+
+// Typography
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
