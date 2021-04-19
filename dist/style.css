@@ -14,7 +14,7 @@ body {
   margin: auto;
 }
 
-.site_nav a {
+.site_nav {
   font-weight: 600;
   color: #262628;
 }
@@ -79,4 +79,10 @@ a {
 .menu .site_nav a.active {
   padding: 5px 0;
   border-bottom: 2px solid #fc7525;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
 }
