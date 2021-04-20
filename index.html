@@ -59,7 +59,7 @@
         </header>
         <main>
             <!-- hero -->
-            <div class="hero" v-bind:style="{ 'background-image': 'url(' + articles[0].images.imgxl + ')' }">
+            <div class="hero" v-bind:style="{ 'background-image': 'url(' + articles[0].images.imgXl + ')' }">
                 <!-- today's article -->
                 <div class="todays_article">
                     <div class="container">
@@ -72,26 +72,25 @@
                  <!-- journal -->
                 <div class="foodie_journal">
                     <div class="introduction">
-                        <div class="line"></div>
                         <h2>Foodie Journal</h2>
                     </div>
                     <div class="showcase">
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgs" alt="">
+                            <img :src="'img/' + articles[0].images.imgS" alt="">
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
                             </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgs" alt="">
+                            <img :src="'img/' + articles[0].images.imgS" alt="">
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
                             </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgs" alt="">
+                            <img :src="'img/' + articles[0].images.imgS" alt="">
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
@@ -107,6 +106,44 @@
                 <div class="introduction introduction__container">
                     <h2>Popular Recipes</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur aut atque vel doloribus, rem quod quisquam perferendis quasi natus perspiciatis fugiat fugit corporis minima itaque officiis officia et maxime?</p>
+                </div>
+                <div class="showcase">
+                    <div class="showcase__half">
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                            <div class="content">
+                                <h3> {{ articles[0].articleContent.title }} </h3>
+                                <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
+                                <div class="article_body">
+                                    <p> {{ articles[0].articleContent.articleBody }} </p>
+                                </div>
+                                <a class="btn" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__half">
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /popular recipes -->

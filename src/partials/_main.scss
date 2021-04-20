@@ -24,7 +24,7 @@
                     font-weight: 600;
                 }
             h1 {
-                padding-top: $box-spacing;
+                padding-top: $box-spacing2;
             }
             span {
                 font-family: 'Vidaloka', serif;
@@ -41,14 +41,14 @@
         left: 50%;
         bottom: 0;
         transform: translate(-50%, 70%);
-        padding: $box-spacing;
+        padding: $box-spacing2;
         .introduction {
             display: flex;
             justify-content: center;
             align-items: center;
             h2 {
                 width: 50%;
-                margin: 0 $box-spacing;
+                margin: 0 $box-spacing2;
             }
             &:before, &:after {
                 content:"";
@@ -56,13 +56,19 @@
                 height: 0px;
                 border: 1px dashed $brand-icons;
                 width: 60%;
+                margin-bottom: 30px;
             }
         }
         .showcase {
-            display: flex;
             .exhibit_box {
-                padding: 20px;
+                padding: 15px;
             }
         }
+    }
+}
+
+.popular_recipes {
+    .showcase {
+        justify-content: space-between;
     }
 }

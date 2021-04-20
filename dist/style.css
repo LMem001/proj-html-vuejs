@@ -14,6 +14,7 @@ h3 {
 
 h2 {
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 a {
@@ -82,6 +83,25 @@ ul {
   text-transform: uppercase;
 }
 
+.btn {
+  display: inline-block;
+  background-color: #fc7525;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.showcase {
+  display: flex;
+}
+
+.showcase__half {
+  width: 50%;
+}
+
+.exhibit_box {
+  padding: 30px;
+}
 .exhibit_box img {
   width: 100%;
 }
@@ -90,6 +110,16 @@ ul {
 }
 .exhibit_box .content h3 {
   padding-bottom: 10px;
+}
+.exhibit_box .content .article_body p {
+  padding: 15px 0;
+}
+.exhibit_box .content .article_body:before {
+  content: "";
+  display: inline-block;
+  height: 0px;
+  border: 1px dashed #afafaf;
+  width: 100%;
 }
 
 .appAndPages {
@@ -186,10 +216,12 @@ ul {
   height: 0px;
   border: 1px dashed #afafaf;
   width: 60%;
-}
-.hero .foodie_journal .showcase {
-  display: flex;
+  margin-bottom: 30px;
 }
 .hero .foodie_journal .showcase .exhibit_box {
-  padding: 20px;
+  padding: 15px;
+}
+
+.popular_recipes .showcase {
+  justify-content: space-between;
 }
