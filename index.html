@@ -60,6 +60,7 @@
         <main>
             <!-- hero -->
             <div class="hero" v-bind:style="{ 'background-image': 'url(' + articles[0].images.imgxl + ')' }">
+                <!-- today's article -->
                 <div class="todays_article">
                     <div class="container">
                         <label class="brand_label" for="Today's article">Today's pick</label>
@@ -67,6 +68,8 @@
                         <span> {{ articles[0].articleInfos.date }} </span>
                     </div>
                 </div>
+                <!-- /today's article -->
+                 <!-- journal -->
                 <div class="foodie_journal">
                     <div class="introduction">
                         <div class="line"></div>
@@ -84,21 +87,28 @@
                             <img :src="'img/' + articles[0].images.imgs" alt="">
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
+                                <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
                             </div>
                         </div>
                         <div class="exhibit_box">
                             <img :src="'img/' + articles[0].images.imgs" alt="">
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
+                                <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- /journal -->
             </div>
             <!-- /hero -->
-            <!-- journal -->
-            <!-- /journal -->
             <!-- popular recipes -->
+            <section class="popular_recipes container padding--v2">
+                <div class="introduction introduction__container">
+                    <h2>Popular Recipes</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur aut atque vel doloribus, rem quod quisquam perferendis quasi natus perspiciatis fugiat fugit corporis minima itaque officiis officia et maxime?</p>
+                </div>
+            </section>
             <!-- /popular recipes -->
             <!-- culinary collections -->
             <!-- /culinary collections -->

@@ -12,6 +12,10 @@ h3 {
   font-size: 25px;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -38,6 +42,7 @@ li {
 
 body {
   padding-top: 20px;
+  background-color: #f0eeeb;
 }
 
 .container {
@@ -49,8 +54,25 @@ body {
   font-weight: 600;
 }
 
+.introduction {
+  text-align: center;
+}
+
+.introduction__container {
+  width: 50%;
+  margin: auto;
+}
+
 ul {
   display: flex;
+}
+
+.padding--v1 {
+  padding: 50px;
+}
+
+.padding--v2 {
+  padding: 100px;
 }
 
 .brand_label {
@@ -60,8 +82,14 @@ ul {
   text-transform: uppercase;
 }
 
+.exhibit_box img {
+  width: 100%;
+}
 .exhibit_box .content {
-  padding: 30px;
+  padding: 10px;
+}
+.exhibit_box .content h3 {
+  padding-bottom: 10px;
 }
 
 .appAndPages {
@@ -104,7 +132,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 20px;
-  margin-bottom: 300px;
+  margin-bottom: 376px;
 }
 .hero .todays_article {
   width: 500px;
@@ -129,6 +157,7 @@ ul {
   padding-top: 30px;
 }
 .hero .todays_article .container span {
+  font-family: "Vidaloka", serif;
   display: block;
   padding: 20px 0;
 }
@@ -136,10 +165,10 @@ ul {
   text-align: center;
   background-color: #fff;
   position: absolute;
+  width: 70%;
   left: 50%;
   bottom: 0;
   transform: translate(-50%, 70%);
-  border-radius: 7px;
   padding: 30px;
 }
 .hero .foodie_journal .introduction {
@@ -156,7 +185,7 @@ ul {
   display: inline-block;
   height: 0px;
   border: 1px dashed #afafaf;
-  width: 100%;
+  width: 60%;
 }
 .hero .foodie_journal .showcase {
   display: flex;

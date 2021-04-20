@@ -1,5 +1,11 @@
 .exhibit_box {
+    img {
+        width: 100%;
+    }
     .content {
-        padding: $box-spacing
+        padding: 10px;
+        h3 {
+            padding-bottom: 10px;
+        }
     }
 }

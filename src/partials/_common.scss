@@ -6,6 +6,7 @@
 
 body {
     padding-top: 20px;
+    background-color: $brand-background;
 }
 
 .container {
@@ -17,8 +18,23 @@ body {
     font-weight: 600;
 }
 
+.introduction {
+    text-align: center;
+}
+
+.introduction__container {
+    width: 50%;
+    margin: auto;
+}
+
 ul {
     display:flex;
+}
+
+@for $i from 1 through 2 {
+    .padding--v#{$i} {
+        padding: 50px * $i;
+    }
 }
 
 // labels 
