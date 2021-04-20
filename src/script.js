@@ -64,7 +64,7 @@ const app = new Vue ({
             {
                 images: {
                     smallImg:"",
-                    bigImg:"img/single-post-img3-1200x790.jpg",
+                    imgxl:"img/single-post-img3-1200x790.jpg",
                 },
                 articleInfos: {
                     author: "admin",
