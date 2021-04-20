@@ -218,10 +218,22 @@ ul {
   width: 60%;
   margin-bottom: 30px;
 }
-.hero .foodie_journal .showcase .exhibit_box {
+.hero .foodie_journal .showcase .showcase__half {
   padding: 15px;
 }
 
 .popular_recipes .showcase {
   justify-content: space-between;
+}
+.popular_recipes .showcase .showcase__half:last-child {
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular_recipes .showcase .showcase__half:last-child .exhibit_box {
+  width: 50%;
+  padding: 15px;
+}
+.popular_recipes .showcase .showcase__half:last-child .exhibit_box img {
+  vertical-align: bottom;
 }
