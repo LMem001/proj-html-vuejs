@@ -59,7 +59,7 @@
         </header>
         <main>
             <!-- hero -->
-            <div class="hero">
+            <div class="hero" v-bind:style="{ 'background-image': 'url(' + articles[0].images.bigImg + ')' }">
                 <div class="todays_article">
                     <div class="container">
                         <label class="brand_label" for="Today's article">Today's pick</label>

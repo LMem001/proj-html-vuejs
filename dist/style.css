@@ -96,7 +96,7 @@ a {
   margin-bottom: 300px;
 }
 .hero .todays_article {
-  width: 30%;
+  width: 300px;
   background-color: #fff;
   position: absolute;
   left: 50%;
@@ -124,7 +124,6 @@ a {
 .hero .foodie_journal {
   width: 300px;
   height: 300px;
-  background-color: yellow;
   position: absolute;
   left: 50%;
   bottom: 0;
