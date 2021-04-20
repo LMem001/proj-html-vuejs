@@ -8,9 +8,48 @@
 
 .exhibit_box {
     padding: $box-spacing2;
-    img {
-        width: 100%;
-    }
+    .exhibit_box__image {
+        position: relative;
+        cursor: pointer;
+        img {
+            width: 100%;
+            display: block;
+        }
+        .exhibit_box__image__overlay {
+            pointer-events:none; 
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-image: linear-gradient(180deg, rgba(252,117,37,0.33657212885154064) 0%, rgba(252,117,37,1) 96%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .overlay__content {
+                width: 80%;
+                text-align: center;
+                .fa-link {
+                    padding: 10px;
+                    background-color: #fff;
+                    color: $brand-primary;
+                    border-radius: 50%;
+                    font-size: 17px;
+                }
+                h4 {
+                    margin-top: $box-spacing1;
+                    color: #fff;
+                }
+            }
+        }
+        &:hover .exhibit_box__image__overlay{
+            opacity: 1;
+        }
+      }
     .content {
         padding: 10px;
         h3 {

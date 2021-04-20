@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -33,7 +33,7 @@ ul {
 
 @for $i from 1 through 2 {
     .padding--v#{$i} {
-        padding: 50px * $i;
+        padding: 50px * $i 0;
     }
 }
 

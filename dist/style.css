@@ -3,13 +3,18 @@ body {
   color: #262628;
 }
 
-h1, h3 {
+h1, h3, h4 {
   font-family: "Vidaloka", serif;
   font-weight: 400;
 }
 
 h3 {
   font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #fff;
 }
 
 h2 {
@@ -47,7 +52,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
@@ -69,11 +74,11 @@ ul {
 }
 
 .padding--v1 {
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .padding--v2 {
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .brand_label {
@@ -102,8 +107,47 @@ ul {
 .exhibit_box {
   padding: 30px;
 }
-.exhibit_box img {
+.exhibit_box .exhibit_box__image {
+  position: relative;
+  cursor: pointer;
+}
+.exhibit_box .exhibit_box__image img {
   width: 100%;
+  display: block;
+}
+.exhibit_box .exhibit_box__image .exhibit_box__image__overlay {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: linear-gradient(180deg, rgba(252, 117, 37, 0.3365721289) 0%, #fc7525 96%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exhibit_box .exhibit_box__image .exhibit_box__image__overlay .overlay__content {
+  width: 80%;
+  text-align: center;
+}
+.exhibit_box .exhibit_box__image .exhibit_box__image__overlay .overlay__content .fa-link {
+  padding: 10px;
+  background-color: #fff;
+  color: #fc7525;
+  border-radius: 50%;
+  font-size: 17px;
+}
+.exhibit_box .exhibit_box__image .exhibit_box__image__overlay .overlay__content h4 {
+  margin-top: 15px;
+  color: #fff;
+}
+.exhibit_box .exhibit_box__image:hover .exhibit_box__image__overlay {
+  opacity: 1;
 }
 .exhibit_box .content {
   padding: 10px;
@@ -195,7 +239,6 @@ ul {
   text-align: center;
   background-color: #fff;
   position: absolute;
-  width: 70%;
   left: 50%;
   bottom: 0;
   transform: translate(-50%, 70%);
@@ -223,6 +266,7 @@ ul {
 }
 
 .popular_recipes .showcase {
+  width: 100%;
   justify-content: space-between;
 }
 .popular_recipes .showcase .showcase__half:last-child {

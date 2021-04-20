@@ -70,27 +70,55 @@
                 </div>
                 <!-- /today's article -->
                  <!-- journal -->
-                <div class="foodie_journal">
+                <div class="foodie_journal container">
                     <div class="introduction">
                         <h2>Foodie Journal</h2>
                     </div>
                     <div class="showcase">
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgS" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgS" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
                             </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgS" alt="">
+                            <div class="exhibit_box__image">
+                                <div class="exhibit_box__image">
+                                    <img :src="'img/' + articles[0].images.imgS" alt="">
+                                    <div class="exhibit_box__image__overlay">
+                                        <div class="overlay__content">
+                                            <i class="fas fa-link"></i>
+                                            <h4> {{ articles[0].articleContent.title }} </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
                             </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgS" alt="">
+                            <div class="exhibit_box__image">
+                                <div class="exhibit_box__image">
+                                    <img :src="'img/' + articles[0].images.imgS" alt="">
+                                    <div class="exhibit_box__image__overlay">
+                                        <div class="overlay__content">
+                                            <i class="fas fa-link"></i>
+                                            <h4> {{ articles[0].articleContent.title }} </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
@@ -110,7 +138,15 @@
                 <div class="showcase">
                     <div class="showcase__half">
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgL" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgL" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="content">
                                 <h3> {{ articles[0].articleContent.title }} </h3>
                                 <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
@@ -123,22 +159,70 @@
                     </div>
                     <div class="showcase__half">
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgXs" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgXs" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgXs" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgXs" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgXs" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="exhibit_box">
-                            <img :src="'img/' + articles[0].images.imgXs" alt="">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

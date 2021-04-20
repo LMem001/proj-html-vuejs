@@ -37,7 +37,6 @@
         text-align: center;
         background-color: #fff;
         position: absolute;
-        width: 70%;
         left: 50%;
         bottom: 0;
         transform: translate(-50%, 70%);
@@ -69,6 +68,7 @@
 
 .popular_recipes {
     .showcase {
+        width: 100%;
         justify-content: space-between;
         .showcase__half:last-child{
             padding-top:$box-spacing1;
