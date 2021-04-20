@@ -68,7 +68,31 @@
                     </div>
                 </div>
                 <div class="foodie_journal">
-                    
+                    <div class="introduction">
+                        <div class="line"></div>
+                        <h2>Foodie Journal</h2>
+                    </div>
+                    <div class="showcase">
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgs" alt="">
+                            <div class="content">
+                                <h3> {{ articles[0].articleContent.title }} </h3>
+                                <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
+                            </div>
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgs" alt="">
+                            <div class="content">
+                                <h3> {{ articles[0].articleContent.title }} </h3>
+                            </div>
+                        </div>
+                        <div class="exhibit_box">
+                            <img :src="'img/' + articles[0].images.imgs" alt="">
+                            <div class="content">
+                                <h3> {{ articles[0].articleContent.title }} </h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- /hero -->

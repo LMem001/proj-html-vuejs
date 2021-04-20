@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     .avada {
-        color: $brand-secondary;
         font-size: 12px;
         .ios {
             font-size: 8px;
@@ -21,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     .logo {
-        margin-bottom: 30px;
+        margin-bottom: $box-spacing;
     }
     li:not(:last-child) {
         margin-right: 60px;
