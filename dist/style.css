@@ -323,29 +323,57 @@ ul {
 .farm_table .introduction .introduction__container:last-child .btn .fa-book-reader {
   margin-left: 10px;
 }
-.farm_table .showcase {
-  width: 60%;
-}
-.farm_table .showcase .interactions {
+.farm_table .section__container {
   display: flex;
   justify-content: space-between;
 }
-.farm_table .showcase .interactions i {
+.farm_table .section__container .showcase__container {
+  width: 67%;
+}
+.farm_table .section__container .showcase {
+  width: 100%;
+}
+.farm_table .section__container .showcase .interactions {
+  display: flex;
+  justify-content: space-between;
+}
+.farm_table .section__container .showcase .interactions i {
   margin: 0 5px;
 }
-.farm_table .showcase .interactions .read_more a {
+.farm_table .section__container .showcase .interactions .read_more a {
   display: flex;
   align-items: center;
 }
-.farm_table .showcase .interactions .read_more a i {
+.farm_table .section__container .showcase .interactions .read_more a i {
   font-size: 10px;
 }
-.farm_table .showcase:last-child {
+.farm_table .section__container .showcase:last-child {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.farm_table .showcase:last-child .exhibit_box {
+.farm_table .section__container .showcase:last-child .exhibit_box {
   text-align: center;
   width: calc(95% / 2);
   margin-top: 50px;
+}
+.farm_table .section__container aside {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+}
+.farm_table .section__container aside * {
+  width: 100%;
+}
+.farm_table .section__container aside .latest_recipes {
+  position: relative;
+  text-align: center;
+}
+.farm_table .section__container aside .latest_recipes h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
