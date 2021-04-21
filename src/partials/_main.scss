@@ -100,7 +100,7 @@
                 width: 100%;
             }
             h3 {
-                font-family: 'Catamaran', sans-serif;
+                font-family: $font-secondary;
                 font-weight: 600;
             }
             .latest_recipes {
@@ -161,9 +161,10 @@
             }
             .socials {
                 h4 {
-                    font-family: 'Vidaloka', serif;     
+                    font-family: $font-primary;     
                     color: $brand-primary;   
                     font-weight: 400;
+                    margin-bottom: 10px;
                 }
                 i {
                     color: #979c9c;
@@ -171,6 +172,45 @@
                     padding: 8px 13px;
                     margin-right: 5px;
                     border-radius: 5px;
+                }
+            }
+            .highlights {
+                .highlights__switch{
+                    display: flex;
+                    margin-bottom: $box-spacing2;
+                    button {
+                        width: 50%;
+                        padding: 15px;
+                        background-color: transparent;
+                        outline: none;
+                        font-family: $font-primary; 
+                        font-size: 18px;    
+                        cursor: pointer;
+                        border-color: $brand-icons;
+                        &.active {
+                            background-color: #fff;
+                        }
+                    }
+                }
+                .showcase {
+                    display: block;
+                    .box_thumbnail {
+                        display: flex;
+                        align-items: center;
+                        padding: $box-spacing1 0;
+                        .box_thumbnail__image {
+                            height: 55px;
+                            margin-right: $box-spacing1;
+                            img {
+                                border-radius: 50%;
+                                height: 100%;
+                            }
+                        }
+                        h4 {
+                            font-size: 18px;
+                            font-weight: 300;
+                        }
+                    }
                 }
             }
         }

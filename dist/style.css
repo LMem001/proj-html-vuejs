@@ -431,6 +431,7 @@ ul {
   font-family: "Vidaloka", serif;
   color: #fc7525;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 .farm_table .section__container aside .socials i {
   color: #979c9c;
@@ -438,4 +439,41 @@ ul {
   padding: 8px 13px;
   margin-right: 5px;
   border-radius: 5px;
+}
+.farm_table .section__container aside .highlights .highlights__switch {
+  display: flex;
+  margin-bottom: 30px;
+}
+.farm_table .section__container aside .highlights .highlights__switch button {
+  width: 50%;
+  padding: 15px;
+  background-color: transparent;
+  outline: none;
+  font-family: "Vidaloka", serif;
+  font-size: 18px;
+  cursor: pointer;
+  border-color: #afafaf;
+}
+.farm_table .section__container aside .highlights .highlights__switch button.active {
+  background-color: #fff;
+}
+.farm_table .section__container aside .highlights .showcase {
+  display: block;
+}
+.farm_table .section__container aside .highlights .showcase .box_thumbnail {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+.farm_table .section__container aside .highlights .showcase .box_thumbnail .box_thumbnail__image {
+  height: 55px;
+  margin-right: 15px;
+}
+.farm_table .section__container aside .highlights .showcase .box_thumbnail .box_thumbnail__image img {
+  border-radius: 50%;
+  height: 100%;
+}
+.farm_table .section__container aside .highlights .showcase .box_thumbnail h4 {
+  font-size: 18px;
+  font-weight: 300;
 }

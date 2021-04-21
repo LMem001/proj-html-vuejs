@@ -170,7 +170,7 @@
                     <div class="showcase__half">
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -181,7 +181,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -192,7 +192,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -203,7 +203,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -214,7 +214,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -225,7 +225,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -236,7 +236,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -247,7 +247,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -483,7 +483,7 @@
                         </div>
                         <!-- /searchbar -->
                         <!-- socials -->
-                        <div class="socials">
+                        <div class="socials padding--v1">
                             <h4>Follow Us</h4>
                             <ul v-show="socialLinks.length != 0">
                                 <li v-for="social in socialLinks">
@@ -497,13 +497,42 @@
                         <!-- highlights-->
                         <div class="highlights">
                             <div class="highlights__switch">
-                                <button>Popular</button>
+                                <button class="active">Popular</button>
                                 <button>Recent</button>
+                            </div>
+                            <div class="showcase">
+                                <div class="box_thumbnail">
+                                    <div class="box_thumbnail__image">
+                                        <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                    </div>
+                                    <div class="box_thumbnail__content">
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                        <span> {{ articles[0].articleInfos.date }} </span>  
+                                    </div>
+                                </div>
+                                <div class="box_thumbnail">
+                                    <div class="box_thumbnail__image">
+                                        <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                    </div>
+                                    <div class="box_thumbnail__content">
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                        <span> {{ articles[0].articleInfos.date }} </span>  
+                                    </div>
+                                </div>
+                                <div class="box_thumbnail">
+                                    <div class="box_thumbnail__image">
+                                        <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
+                                    </div>
+                                    <div class="box_thumbnail__content">
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                        <span> {{ articles[0].articleInfos.date }} </span>  
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- /highlights-->
-                        <!-- tweets -->
-                        <!-- /tweets -->
+                        <!-- tweet -->
+                        <!-- /tweet -->
                     </aside>
                     <!-- /aside -->
                 </div>
