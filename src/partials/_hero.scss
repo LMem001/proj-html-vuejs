@@ -1,0 +1,65 @@
+.hero {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 376px;
+    .todays_article {
+        width: 500px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 0);
+        border-radius: 7px;
+        .container {
+            position: relative;
+            text-align: center;
+            .brand_label {
+                    position: absolute;
+                    transform: translate(-50%, -55%);
+                    padding: 8px 15px;
+                    font-weight: 600;
+                }
+            h1 {
+                padding-top: $box-spacing2;
+            }
+            span {
+                font-family: 'Vidaloka', serif;
+                display: block;
+                padding: 20px 0;
+            }
+        }
+    }
+    .foodie_journal {
+        text-align: center;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 70%);
+        padding: $box-spacing2;
+        .introduction {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2 {
+                width: 50%;
+                margin: 0 $box-spacing2;
+            }
+            &:before, &:after {
+                content:"";
+                display: inline-block;
+                height: 0px;
+                border: 1px dashed $brand-icons;
+                width: 60%;
+                margin-bottom: 30px;
+            }
+        }
+        .exhibit_box {
+            padding: $box-spacing1;
+        }
+    }
+}
