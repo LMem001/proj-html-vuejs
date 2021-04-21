@@ -77,7 +77,7 @@
                     <div class="showcase">
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgS" alt="">
+                                <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -93,7 +93,7 @@
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
                                 <div class="exhibit_box__image">
-                                    <img :src="'img/' + articles[0].images.imgS" alt="">
+                                    <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                     <div class="exhibit_box__image__overlay">
                                         <div class="overlay__content">
                                             <i class="fas fa-link"></i>
@@ -110,7 +110,7 @@
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
                                 <div class="exhibit_box__image">
-                                    <img :src="'img/' + articles[0].images.imgS" alt="">
+                                    <img :src="'img/' + articles[0].images.imgS" :alt="articles[0].articleContent.title + ' thumbnail'">
                                     <div class="exhibit_box__image__overlay">
                                         <div class="overlay__content">
                                             <i class="fas fa-link"></i>
@@ -139,7 +139,7 @@
                     <div class="showcase__half">
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgL" alt="">
+                                <img :src="'img/' + articles[0].images.imgL" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -160,7 +160,7 @@
                     <div class="showcase__half">
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -171,7 +171,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -182,7 +182,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -193,7 +193,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -204,7 +204,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -215,7 +215,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -226,7 +226,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -237,7 +237,7 @@
                         </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
-                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <img :src="'img/' + articles[0].images.imgXs" :alt="articles[0].articleContent.title + ' thumbnail'">
                                 <div class="exhibit_box__image__overlay">
                                     <div class="overlay__content">
                                         <i class="fas fa-link"></i>
@@ -251,6 +251,46 @@
             </section>
             <!-- /popular recipes -->
             <!-- culinary collections -->
+            <section class="culinary__collection container">
+                <div class="introduction introduction__container padding--v1">
+                    <h2>Culinary coolection</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur aut atque vel doloribus, rem quod quisquam perferendis quasi natus perspiciatis fugiat fugit corporis minima itaque officiis officia et maxime?</p>
+                </div>
+                <div class="showcase">
+                    <div class="card">
+                        <img src="img/drinks-recipes.png" alt="Drinks card">
+                        <h4>Drinks</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/soups-recipes.png" alt="Soups card">
+                        <h4>Soups</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/baking-recipes.png" alt="Bakery card">
+                        <h4>Bakery</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/dinner-recipes.png" alt="Dinner card">
+                        <h4>Dinner</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/healthy-recipes.png" alt="Healthy card">
+                        <h4>Healthy</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/staff-picks.png" alt="Staff piks card">
+                        <h4>Staff piks</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/premium-recipes.png" alt="Appetisers card">
+                        <h4>Appetisers</h4>
+                    </div>
+                    <div class="card">
+                        <img src="img/quick-easy-recipes.png" alt="Quick and easy card">
+                        <h4>Quick & easy</h4>
+                    </div>
+                </div>
+            </section>
             <!-- /culinary collections -->
             <!-- farm to table -->  
                 <!-- main column -->

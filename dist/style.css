@@ -3,7 +3,7 @@ body {
   color: #262628;
 }
 
-h1, h3, h4 {
+h1, h3 {
   font-family: "Vidaloka", serif;
   font-weight: 400;
 }
@@ -14,7 +14,6 @@ h3 {
 
 h4 {
   font-size: 20px;
-  color: #fff;
 }
 
 h2 {
@@ -142,6 +141,8 @@ ul {
 .exhibit_box .exhibit_box__image .exhibit_box__image__overlay .overlay__content h4 {
   margin-top: 15px;
   color: #fff;
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
 }
 .exhibit_box .exhibit_box__image:hover .exhibit_box__image__overlay {
   opacity: 1;
@@ -163,6 +164,11 @@ ul {
   height: 0px;
   border: 1px dashed #afafaf;
   width: 100%;
+}
+
+.card {
+  text-align: center;
+  background-color: #fff;
 }
 
 .appAndPages {
@@ -280,4 +286,23 @@ ul {
 .popular_recipes .showcase .showcase__half:last-child .exhibit_box img {
   height: 100%;
   vertical-align: bottom;
+}
+
+.culinary__collection .showcase {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.culinary__collection .showcase .card {
+  width: calc(90% / 4);
+  padding: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.culinary__collection .showcase .card h4 {
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.culinary__collection .showcase .card:hover h4 {
+  color: #fff;
+  background-color: #fc7525;
 }

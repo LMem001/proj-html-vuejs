@@ -83,3 +83,24 @@
         }
     }
 }
+
+.culinary__collection {
+    .showcase {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .card {
+            width: calc(90% / 4);
+            padding: $box-spacing1;
+            margin-bottom: $box-spacing2;
+            cursor: pointer;
+            h4 {
+                padding: 10px 0;
+                text-transform: uppercase;
+            }
+            &:hover h4 {
+                color: #fff;
+                background-color: $brand-primary;
+            }
+        }
+    }
+}
