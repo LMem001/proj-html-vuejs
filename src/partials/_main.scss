@@ -74,4 +74,13 @@
             }
         }
     }
+    .showcase:last-child{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .exhibit_box {
+            text-align: center;
+            width: calc(95% / 2);
+            margin-top: 50px;
+        }
+    }
 }

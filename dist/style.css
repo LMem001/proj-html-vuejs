@@ -340,3 +340,12 @@ ul {
 .farm_table .showcase .interactions .read_more a i {
   font-size: 10px;
 }
+.farm_table .showcase:last-child {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.farm_table .showcase:last-child .exhibit_box {
+  text-align: center;
+  width: calc(95% / 2);
+  margin-top: 50px;
+}
