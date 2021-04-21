@@ -3,11 +3,10 @@
 }
 
 .showcase__half {
-    width: 50%;
+    width: 48%;
 }
 
 .exhibit_box {
-    padding: $box-spacing2;
     .exhibit_box__image {
         position: relative;
         cursor: pointer;
@@ -51,7 +50,9 @@
         }
       }
     .content {
-        padding: 10px;
+        padding: $box-spacing2;
+        width: 100%;
+        background-color: #fff;
         h3 {
             padding-bottom: 10px;
         }

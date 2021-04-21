@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -101,12 +101,9 @@ ul {
 }
 
 .showcase__half {
-  width: 50%;
+  width: 48%;
 }
 
-.exhibit_box {
-  padding: 30px;
-}
 .exhibit_box .exhibit_box__image {
   position: relative;
   cursor: pointer;
@@ -150,7 +147,9 @@ ul {
   opacity: 1;
 }
 .exhibit_box .content {
-  padding: 10px;
+  padding: 30px;
+  width: 100%;
+  background-color: #fff;
 }
 .exhibit_box .content h3 {
   padding-bottom: 10px;
@@ -261,7 +260,7 @@ ul {
   width: 60%;
   margin-bottom: 30px;
 }
-.hero .foodie_journal .showcase .showcase__half {
+.hero .foodie_journal .exhibit_box {
   padding: 15px;
 }
 
@@ -270,14 +269,15 @@ ul {
   justify-content: space-between;
 }
 .popular_recipes .showcase .showcase__half:last-child {
-  padding-top: 15px;
   display: flex;
   flex-wrap: wrap;
 }
 .popular_recipes .showcase .showcase__half:last-child .exhibit_box {
   width: 50%;
-  padding: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 .popular_recipes .showcase .showcase__half:last-child .exhibit_box img {
+  height: 100%;
   vertical-align: bottom;
 }

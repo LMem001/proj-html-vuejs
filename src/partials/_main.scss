@@ -58,10 +58,8 @@
                 margin-bottom: 30px;
             }
         }
-        .showcase {
-            .showcase__half {
-                padding: $box-spacing1;
-            }
+        .exhibit_box {
+            padding: $box-spacing1;
         }
     }
 }
@@ -70,14 +68,15 @@
     .showcase {
         width: 100%;
         justify-content: space-between;
-        .showcase__half:last-child{
-            padding-top:$box-spacing1;
+        .showcase__half:last-child {
             display: flex;
             flex-wrap: wrap;
             .exhibit_box {
                 width: 50%;
-                padding: $box-spacing1;
+                padding-left: $box-spacing1;
+                padding-bottom: $box-spacing1;
                 img {
+                    height: 100%;
                     vertical-align: bottom;
                 }
             }

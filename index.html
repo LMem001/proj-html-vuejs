@@ -131,7 +131,7 @@
             <!-- /hero -->
             <!-- popular recipes -->
             <section class="popular_recipes container padding--v2">
-                <div class="introduction introduction__container">
+                <div class="introduction introduction__container padding--v1">
                     <h2>Popular Recipes</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tenetur aut atque vel doloribus, rem quod quisquam perferendis quasi natus perspiciatis fugiat fugit corporis minima itaque officiis officia et maxime?</p>
                 </div>
@@ -158,6 +158,28 @@
                         </div>
                     </div>
                     <div class="showcase__half">
+                        <div class="exhibit_box">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="exhibit_box">
+                            <div class="exhibit_box__image">
+                                <img :src="'img/' + articles[0].images.imgXs" alt="">
+                                <div class="exhibit_box__image__overlay">
+                                    <div class="overlay__content">
+                                        <i class="fas fa-link"></i>
+                                        <h4> {{ articles[0].articleContent.title }} </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="exhibit_box">
                             <div class="exhibit_box__image">
                                 <img :src="'img/' + articles[0].images.imgXs" alt="">
