@@ -58,6 +58,20 @@
         }
     }
     .showcase {
-        width: 70%;
+        width: 60%;
+        .interactions {
+            display: flex;
+            justify-content: space-between;
+            i {
+                margin: 0 5px;
+            }
+            .read_more a {
+                display: flex;
+                align-items: center;
+                i {
+                    font-size: 10px;
+                }
+            }
+        }
     }
 }

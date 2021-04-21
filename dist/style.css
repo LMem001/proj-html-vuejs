@@ -324,5 +324,19 @@ ul {
   margin-left: 10px;
 }
 .farm_table .showcase {
-  width: 70%;
+  width: 60%;
+}
+.farm_table .showcase .interactions {
+  display: flex;
+  justify-content: space-between;
+}
+.farm_table .showcase .interactions i {
+  margin: 0 5px;
+}
+.farm_table .showcase .interactions .read_more a {
+  display: flex;
+  align-items: center;
+}
+.farm_table .showcase .interactions .read_more a i {
+  font-size: 10px;
 }

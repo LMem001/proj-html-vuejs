@@ -322,7 +322,36 @@
                 </div>
                 <!-- /introduction -->
                 <!-- showcase -->
-                <div class="showcase"></div>
+                <div class="showcase">
+                    <div class="exhibit_box">
+                        <div class="exhibit_box__image">
+                            <img :src="'img/' + articles[0].images.imgL" :alt="articles[0].articleContent.title + ' thumbnail'">
+                            <div class="exhibit_box__image__overlay">
+                                <div class="overlay__content">
+                                    <i class="fas fa-link"></i>
+                                    <h4> {{ articles[0].articleContent.title }} </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3> {{ articles[0].articleContent.title }} </h3>
+                            <span>By {{ articles[0].articleInfos.author }} | {{ articles[0].articleInfos.date }} </span>
+                            <div class="article_body">
+                                <p> {{ articles[0].articleContent.articleBody }} </p>
+                            </div>
+                            <div class="interactions">
+                                <div class="read_more">
+                                    <a href="#">Read More<i class="fas fa-chevron-right"></i></a>
+                                </div>
+                                <div class="comments">
+                                    <a href="#">
+                                        <i class="far fa-comments"></i>0
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- /showcase -->
                 <!-- aside -->
                 <!-- /aside -->
