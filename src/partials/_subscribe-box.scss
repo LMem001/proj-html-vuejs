@@ -1,0 +1,32 @@
+.subscribe {
+    text-align: center;
+    padding: 100px;
+    background-color: $box-background;
+    background-image: url("../img/subscribe-sec-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        font-family: $font-primary;
+        font-weight: 400;
+        span {
+            font-size: 26px;
+            color: $brand-primary;
+        }
+    }
+    p {
+        font-size: $fsize-small;
+    }
+    .subscribe__inputs {
+        margin: 0 $box-spacing1;
+        input {
+            height: 50px;
+            outline: none;
+            padding: $box-spacing1;
+            width: 65%;
+        }
+        .btn {
+            width: 32%;
+            height: 100%;
+        }
+    }
+}

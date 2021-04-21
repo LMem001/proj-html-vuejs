@@ -534,18 +534,28 @@
                         <!-- /highlights-->
                         <!-- tweet -->
                         <div class="twitter">
-                            <h4>Tweets</h4>
-                            <span>by </span><span class="sender">@Theme Fusion</span>
+                            <div class="fl--space_between sinfos">
+                                <div class="sender__infos">
+                                    <h4>Tweets</h4>
+                                    <span>by </span><span class="sender">@Theme Fusion</span>
+                                </div>
+                                <i class="fas fa-info"></i>
+                            </div>
                             <div class="tweet box_thumbnail">
                                 <div class="box_thumbnail__image">
                                     <img src="img/themefusion-logo.png" alt="theme fusion logo">
                                 </div>
                                 <div class="tweet__content">
-                                    <h5>ThemeFusion</h5>
-                                    <span>@Theme Fusion</span>
+                                    <div class="fl--space_between">
+                                        <div class="tweet_infos">
+                                            <h5>ThemeFusion</h5>
+                                            <span>@Theme Fusion</span>
+                                        </div>
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, excepturi aut error porro voluptatem incidunt soluta tempore eaque dolor ex totam natus vel iusto repudiandae vitae eius, dolorem quis iure.</p>
                                     <img src="img/En2TRxLW4AEiWUN.jpeg" alt="add">
-                                    <div class="interactionsEinfos">
+                                    <div class="interactionsEinfos fl--space_between ">
                                         <div class="interactions">
                                             <i class="far fa-heart"></i>
                                             <i class="fas fa-sign-out-alt"></i>
@@ -562,8 +572,43 @@
             </section>
             <!-- /farm to table -->
             <!-- ebook -->
+            <section class="subscribe">
+                <div class="introduction__container">
+                    <h2>Subscribe <span>&</span> Receive A Free eBook</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iure rem soluta minima voluptatum reprehenderit doloremque minus aut debitis ut, aperiam, fuga, vel deleniti impedit dolore culpa tempora! Maiores, facere.</p>
+                    <div class="subscribe__inputs fl--space_between padding--v1">
+                        <input placeholder="Insert your email_*" type="text">
+                        <a class="btn" href="#">Subscribe</a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </section>
             <!-- /ebook -->
             <!-- last meals -->
+            <section class="last_meals">
+                <div class="showcase">
+                    <div class="exhibit_box">
+                        <div class="exhibit_box__image">
+                            <img :src="'img/' + articles[0].images.imgL" :alt="articles[0].articleContent.title + ' thumbnail'">
+                        </div>
+                    </div>
+                    <div class="exhibit_box">
+                        <div class="exhibit_box__image">
+                            <img :src="'img/' + articles[0].images.imgL" :alt="articles[0].articleContent.title + ' thumbnail'">
+                        </div>
+                    </div>
+                    <div class="exhibit_box">
+                        <div class="exhibit_box__image">
+                            <img :src="'img/' + articles[0].images.imgL" :alt="articles[0].articleContent.title + ' thumbnail'">
+                        </div>
+                    </div>
+                    <div class="exhibit_box">
+                        <div class="exhibit_box__image">
+                            <img :src="'img/' + articles[0].images.imgL" :alt="articles[0].articleContent.title + ' thumbnail'">
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- /last meals -->
         </main>
         <footer>

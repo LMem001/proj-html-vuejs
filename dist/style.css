@@ -54,6 +54,12 @@ body {
   background-color: #f0eeeb;
 }
 
+.fl--space_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -501,6 +507,12 @@ aside .twitter {
   background-color: #fff;
   padding: 30px;
 }
+aside .twitter i {
+  color: #afafaf;
+}
+aside .twitter h4 {
+  display: inline-block;
+}
 aside .twitter .sender {
   color: #0492ad;
 }
@@ -512,17 +524,46 @@ aside .twitter .tweet {
 aside .twitter .tweet .tweet__content {
   width: 80%;
 }
+aside .twitter .tweet .tweet__content .fl--space_between:first-child {
+  align-items: flex-start;
+}
 aside .twitter .tweet .tweet__content p {
   font-size: 14px;
   padding-bottom: 30px;
 }
-aside .twitter .tweet .tweet__content .interactionsEinfos {
-  display: flex;
-  justify-content: space-between;
-}
-aside .twitter .tweet .tweet__content .interactionsEinfos i {
-  color: #afafaf;
-}
 aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
   margin-right: 30px;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 100px;
+  background-color: #fff;
+  background-image: url("../img/subscribe-sec-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.subscribe h2 {
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+}
+.subscribe h2 span {
+  font-size: 26px;
+  color: #fc7525;
+}
+.subscribe p {
+  font-size: 14px;
+}
+.subscribe .subscribe__inputs {
+  margin: 0 15px;
+}
+.subscribe .subscribe__inputs input {
+  height: 50px;
+  outline: none;
+  padding: 15px;
+  width: 65%;
+}
+.subscribe .subscribe__inputs .btn {
+  width: 32%;
+  height: 100%;
 }

@@ -127,6 +127,12 @@ aside {
     .twitter {
         background-color: $box-background;
         padding: $box-spacing2;
+        i {
+            color: $brand-icons
+        }
+        h4 {
+            display: inline-block;
+        }
         .sender {
             color: $brand-links;
         }
@@ -136,16 +142,14 @@ aside {
             align-items: flex-start;
             .tweet__content {
                 width: 80%;
+                .fl--space_between:first-child {
+                    align-items: flex-start;
+                }
                 p {
                     font-size: $fsize-small;
                     padding-bottom: $box-spacing2;
                 }
                 .interactionsEinfos {
-                    display: flex; 
-                    justify-content: space-between;
-                    i {
-                        color: $brand-icons
-                    }
                     .fa-heart {
                         margin-right: $box-spacing2;
                     }
