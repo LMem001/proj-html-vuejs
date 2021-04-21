@@ -367,12 +367,15 @@ ul {
 .farm_table .section__container aside img {
   width: 100%;
 }
+.farm_table .section__container aside h3 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
 .farm_table .section__container aside .latest_recipes {
   position: relative;
   text-align: center;
 }
-.farm_table .section__container aside .latest_recipes h4 {
-  font-size: 25px;
+.farm_table .section__container aside .latest_recipes h3 {
   text-transform: uppercase;
   width: 40%;
   position: absolute;
@@ -383,8 +386,10 @@ ul {
 .farm_table .section__container aside .city_guide {
   position: relative;
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
-.farm_table .section__container aside .city_guide h4 {
+.farm_table .section__container aside .city_guide h3 {
   display: inline-block;
   font-size: 20px;
   text-transform: uppercase;
@@ -393,4 +398,15 @@ ul {
   top: 55%;
   padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.7);
+}
+.farm_table .section__container aside .city_guide .all_guides {
+  background-color: #fc7525;
+  text-align: center;
+  padding: 10px;
+}
+.farm_table .section__container aside .city_guide .all_guides i {
+  margin-right: 5px;
+}
+.farm_table .section__container aside .city_guide .all_guides h4 {
+  display: inline-block;
 }

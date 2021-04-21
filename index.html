@@ -59,7 +59,7 @@
         </header>
         <main>
             <!-- hero -->
-            <div class="hero" v-bind:style="{ 'background-image': 'url(' + articles[0].images.imgXl + ')' }">
+            <div class="hero" v-bind:style="{ 'background-image': 'url( '+ 'img/' + articles[0].images.imgXl + ')' }">
                 <!-- today's article -->
                 <div class="todays_article">
                     <div class="container">
@@ -463,13 +463,17 @@
                         <!-- latest recipes -->
                         <div class="latest_recipes">
                             <img src="img/ad-bg.jpg" alt="Latest recipes">
-                            <h4>View our latest recipes</h4>
+                            <h3>View our latest recipes</h3>
                         </div>
                         <!-- /latest recipes -->
                         <!-- city guide -->
                         <div class="city_guide padding--v1">
                             <img src="img/singapore-featured-image-400x263.jpg" alt="Singapore's citi guide">
-                            <h4>City guide: Singapore</h4>
+                            <h3>City guide: Singapore</h3>
+                            <div class="all_guides">
+                                <i class="fas fa-globe-americas"></i>
+                                <h4>View all city guides</h4>
+                            </div>
                         </div>
                         <!-- /city guide -->
                         <!-- searchbar -->
