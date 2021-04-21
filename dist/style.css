@@ -567,3 +567,17 @@ aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
   width: 32%;
   height: 100%;
 }
+
+.footer_menus i {
+  margin-right: 15px;
+  color: #979c9c;
+}
+.footer_menus ul {
+  display: block;
+}
+.footer_menus li {
+  margin-bottom: 15px;
+}
+.footer_menus .logoEsocials img {
+  margin-bottom: 30px;
+}

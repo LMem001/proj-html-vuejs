@@ -613,6 +613,37 @@
         </main>
         <footer>
             <!-- footer -->
+            <div class="footer_menus padding--v1">
+                <div class="container fl--space_between">
+                    <!-- logo and socials -->
+                    <div class="logoEsocials">
+                        <img src="img/avada-food-logo-mob-2x-200x87.png" alt="logo">
+                        <div class="socials">
+                            <ul v-show="socialLinks.length != 0">
+                                <li v-for="social in socialLinks" v-show="social.socialName!='Pinterest'">
+                                    <a :href="social.socialLink">
+                                        <i class="fab" :class="'fa-' + social.icon" ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /logo and socials -->
+                    <!-- menu -->
+                    <nav class="site_nav">
+                        <ul>
+                            <li v-for="page in menuLinks">
+                                <a :href="page.pageLink" :class="{ 'active': page.currentPage == true }">{{ page.pageName }}</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /menu -->
+                    <!-- contacts -->
+                    <!-- /contacts -->
+                    <!-- apps -->
+                    <!-- /apps -->
+                </div>
+            </div>
             <!-- /footer -->
             <!-- copyright -->
             <!-- /copyright -->
