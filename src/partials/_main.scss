@@ -159,6 +159,20 @@
                     padding-left: 40px;
                 }
             }
+            .socials {
+                h4 {
+                    font-family: 'Vidaloka', serif;     
+                    color: $brand-primary;   
+                    font-weight: 400;
+                }
+                i {
+                    color: #979c9c;
+                    border: 1px solid $brand-icons;
+                    padding: 8px 13px;
+                    margin-right: 5px;
+                    border-radius: 5px;
+                }
+            }
         }
     }
 }

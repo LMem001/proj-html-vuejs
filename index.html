@@ -482,8 +482,26 @@
                             <input placeholder="Search" type="text">
                         </div>
                         <!-- /searchbar -->
-                        <!-- popular recipes -->
-                        <!-- /popular recipes -->
+                        <!-- socials -->
+                        <div class="socials">
+                            <h4>Follow Us</h4>
+                            <ul v-show="socialLinks.length != 0">
+                                <li v-for="social in socialLinks">
+                                    <a :href="social.socialLink">
+                                        <i class="fab" :class="'fa-' + social.icon" ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- socials -->
+                        <!-- highlights-->
+                        <div class="highlights">
+                            <div class="highlights__switch">
+                                <button>Popular</button>
+                                <button>Recent</button>
+                            </div>
+                        </div>
+                        <!-- /highlights-->
                         <!-- tweets -->
                         <!-- /tweets -->
                     </aside>
