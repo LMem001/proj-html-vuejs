@@ -388,6 +388,7 @@ ul {
   color: #fff;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #afafaf;
 }
 .farm_table .section__container aside .city_guide h3 {
   display: inline-block;
@@ -409,4 +410,20 @@ ul {
 }
 .farm_table .section__container aside .city_guide .all_guides h4 {
   display: inline-block;
+}
+.farm_table .section__container aside .searchbar {
+  position: relative;
+  color: #afafaf;
+}
+.farm_table .section__container aside .searchbar i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(0, -50%);
+}
+.farm_table .section__container aside .searchbar input {
+  outline: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 40px;
 }
