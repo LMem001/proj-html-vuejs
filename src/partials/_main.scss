@@ -93,7 +93,10 @@
             width: 28%;
             display: flex;
             flex-direction: column;
-            * {
+            > * {
+                width: 100%;
+            }
+            img {
                 width: 100%;
             }
             .latest_recipes {
@@ -107,6 +110,20 @@
                     left: 50%;
                     top: 50%;
                     transform: translate(-50%, -50%);
+                }
+            }
+            .city_guide {
+                position: relative;
+                color: #fff;
+                h4 {
+                    display: inline-block;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    left: 0;
+                    top: 55%;
+                    padding: 10px $box-spacing1;
+                    background-color: rgba($color: #000000, $alpha: 0.7);
                 }
             }
         }
