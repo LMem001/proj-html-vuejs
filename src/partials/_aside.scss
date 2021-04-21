@@ -1,0 +1,156 @@
+aside {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    > * {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    h3 {
+        font-family: $font-secondary;
+        font-weight: 600;
+    }
+    .box_thumbnail {
+        display: flex;
+        align-items: center;
+        padding: $box-spacing1 0;
+        .box_thumbnail__image {
+            height: 55px;
+            img {
+                border-radius: 50%;
+                height: 100%;
+            }
+        }
+        h4 {
+            font-size: $fsize-medium;
+            font-weight: 300;
+        }
+    }
+    .latest_recipes {
+        position: relative;
+        text-align: center;
+        h3 {
+            text-transform: uppercase;
+            width: 40%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .city_guide {
+        position: relative;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid $brand-icons;
+        h3 {
+            display: inline-block;
+            font-size: 20px;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            top: 55%;
+            padding: 10px $box-spacing1;
+            background-color: rgba($color: #000000, $alpha: 0.7);
+        }
+        .all_guides {
+            background-color: $brand-primary;
+            text-align: center;
+            padding: 10px;
+            i {
+                margin-right: 5px;
+            }
+            h4 {
+                display: inline-block;
+            }
+        }
+    }
+    .searchbar {
+        position: relative;
+        color: $brand-icons;
+        i {
+            position: absolute;
+            top: 50%;
+            left: $box-spacing1;
+            transform: translate(0, -50%);
+        }
+        input {
+            outline: none;
+            height: 50px;
+            width: 100%;
+            padding-left: 40px;
+        }
+    }
+    .socials {
+        h4 {
+            font-family: $font-primary;     
+            color: $brand-primary;   
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        i {
+            color: $brand-secondary;
+            border: 1px solid $brand-icons;
+            padding: 8px 13px;
+            margin-right: 5px;
+            border-radius: 5px;
+        }
+    }
+    .highlights {
+        .highlights__switch{
+            display: flex;
+            margin-bottom: $box-spacing2;
+            button {
+                width: 50%;
+                padding: 15px;
+                background-color: transparent;
+                outline: none;
+                font-family: $font-primary; 
+                font-size: $fsize-medium;    
+                cursor: pointer;
+                border-color: $brand-icons;
+                &.active {
+                    background-color: #fff;
+                }
+            }
+        }
+        .showcase {
+            display: block;
+            .box_thumbnail__image {
+                margin-right: $box-spacing1;
+            }
+        }
+    }
+    .twitter {
+        background-color: $box-background;
+        padding: $box-spacing2;
+        .sender {
+            color: $brand-links;
+        }
+        .tweet {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .tweet__content {
+                width: 80%;
+                p {
+                    font-size: $fsize-small;
+                    padding-bottom: $box-spacing2;
+                }
+                .interactionsEinfos {
+                    display: flex; 
+                    justify-content: space-between;
+                    i {
+                        color: $brand-icons
+                    }
+                    .fa-heart {
+                        margin-right: $box-spacing2;
+                    }
+                }
+            }
+        }
+    }
+}

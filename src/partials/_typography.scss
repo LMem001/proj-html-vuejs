@@ -26,15 +26,19 @@ a {
     color: currentColor;
 }
 
+span {
+    font-size: $fsize-small;
+}
+
 li {
     list-style: none;
 }
 
 .mr li:not(:last-child) {
-    margin-right: 15px;
+    margin-right: $box-spacing1;
 }
 
 .socials a {
-    font-size: 18px;
+    font-size: $fsize-medium;
     color: $brand-icons;
 }

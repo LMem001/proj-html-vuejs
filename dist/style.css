@@ -26,6 +26,10 @@ a {
   color: currentColor;
 }
 
+span {
+  font-size: 14px;
+}
+
 li {
   list-style: none;
 }
@@ -94,6 +98,7 @@ ul {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .showcase {
@@ -356,26 +361,55 @@ ul {
   width: calc(95% / 2);
   margin-top: 50px;
 }
-.farm_table .section__container aside {
+.farm_table .section__container .load_btn {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #262628;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+aside {
   width: 28%;
   display: flex;
   flex-direction: column;
 }
-.farm_table .section__container aside > * {
+aside > * {
   width: 100%;
 }
-.farm_table .section__container aside img {
+aside img {
   width: 100%;
 }
-.farm_table .section__container aside h3 {
+aside h3 {
   font-family: "Catamaran", sans-serif;
   font-weight: 600;
 }
-.farm_table .section__container aside .latest_recipes {
+aside .box_thumbnail {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+aside .box_thumbnail .box_thumbnail__image {
+  height: 55px;
+}
+aside .box_thumbnail .box_thumbnail__image img {
+  border-radius: 50%;
+  height: 100%;
+}
+aside .box_thumbnail h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+aside .latest_recipes {
   position: relative;
   text-align: center;
 }
-.farm_table .section__container aside .latest_recipes h3 {
+aside .latest_recipes h3 {
   text-transform: uppercase;
   width: 40%;
   position: absolute;
@@ -383,14 +417,14 @@ ul {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.farm_table .section__container aside .city_guide {
+aside .city_guide {
   position: relative;
   color: #fff;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #afafaf;
 }
-.farm_table .section__container aside .city_guide h3 {
+aside .city_guide h3 {
   display: inline-block;
   font-size: 20px;
   text-transform: uppercase;
@@ -400,51 +434,51 @@ ul {
   padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.farm_table .section__container aside .city_guide .all_guides {
+aside .city_guide .all_guides {
   background-color: #fc7525;
   text-align: center;
   padding: 10px;
 }
-.farm_table .section__container aside .city_guide .all_guides i {
+aside .city_guide .all_guides i {
   margin-right: 5px;
 }
-.farm_table .section__container aside .city_guide .all_guides h4 {
+aside .city_guide .all_guides h4 {
   display: inline-block;
 }
-.farm_table .section__container aside .searchbar {
+aside .searchbar {
   position: relative;
   color: #afafaf;
 }
-.farm_table .section__container aside .searchbar i {
+aside .searchbar i {
   position: absolute;
   top: 50%;
   left: 15px;
   transform: translate(0, -50%);
 }
-.farm_table .section__container aside .searchbar input {
+aside .searchbar input {
   outline: none;
   height: 50px;
   width: 100%;
   padding-left: 40px;
 }
-.farm_table .section__container aside .socials h4 {
+aside .socials h4 {
   font-family: "Vidaloka", serif;
   color: #fc7525;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.farm_table .section__container aside .socials i {
-  color: #979c9c;
+aside .socials i {
+  color: #262628;
   border: 1px solid #afafaf;
   padding: 8px 13px;
   margin-right: 5px;
   border-radius: 5px;
 }
-.farm_table .section__container aside .highlights .highlights__switch {
+aside .highlights .highlights__switch {
   display: flex;
   margin-bottom: 30px;
 }
-.farm_table .section__container aside .highlights .highlights__switch button {
+aside .highlights .highlights__switch button {
   width: 50%;
   padding: 15px;
   background-color: transparent;
@@ -454,26 +488,41 @@ ul {
   cursor: pointer;
   border-color: #afafaf;
 }
-.farm_table .section__container aside .highlights .highlights__switch button.active {
+aside .highlights .highlights__switch button.active {
   background-color: #fff;
 }
-.farm_table .section__container aside .highlights .showcase {
+aside .highlights .showcase {
   display: block;
 }
-.farm_table .section__container aside .highlights .showcase .box_thumbnail {
-  display: flex;
-  align-items: center;
-  padding: 15px 0;
-}
-.farm_table .section__container aside .highlights .showcase .box_thumbnail .box_thumbnail__image {
-  height: 55px;
+aside .highlights .showcase .box_thumbnail__image {
   margin-right: 15px;
 }
-.farm_table .section__container aside .highlights .showcase .box_thumbnail .box_thumbnail__image img {
-  border-radius: 50%;
-  height: 100%;
+aside .twitter {
+  background-color: #fff;
+  padding: 30px;
 }
-.farm_table .section__container aside .highlights .showcase .box_thumbnail h4 {
-  font-size: 18px;
-  font-weight: 300;
+aside .twitter .sender {
+  color: #0492ad;
+}
+aside .twitter .tweet {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+aside .twitter .tweet .tweet__content {
+  width: 80%;
+}
+aside .twitter .tweet .tweet__content p {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+aside .twitter .tweet .tweet__content .interactionsEinfos {
+  display: flex;
+  justify-content: space-between;
+}
+aside .twitter .tweet .tweet__content .interactionsEinfos i {
+  color: #afafaf;
+}
+aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
+  margin-right: 30px;
 }
