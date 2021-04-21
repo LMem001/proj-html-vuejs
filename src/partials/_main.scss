@@ -38,3 +38,26 @@
         }
     }
 }
+
+.farm_table {
+    .introduction {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        .introduction__container {
+            width: 45%;
+            margin: 0;
+        }
+        .introduction__container:last-child {
+            text-align: right;
+            .btn {
+                .fa-book-reader {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .showcase {
+        width: 70%;
+    }
+}

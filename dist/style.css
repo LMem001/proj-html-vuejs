@@ -93,6 +93,7 @@ ul {
   padding: 10px 15px;
   color: #fff;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .showcase {
@@ -305,4 +306,23 @@ ul {
 .culinary__collection .showcase .card:hover h4 {
   color: #fff;
   background-color: #fc7525;
+}
+
+.farm_table .introduction {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.farm_table .introduction .introduction__container {
+  width: 45%;
+  margin: 0;
+}
+.farm_table .introduction .introduction__container:last-child {
+  text-align: right;
+}
+.farm_table .introduction .introduction__container:last-child .btn .fa-book-reader {
+  margin-left: 10px;
+}
+.farm_table .showcase {
+  width: 70%;
 }
