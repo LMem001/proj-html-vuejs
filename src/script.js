@@ -1,6 +1,7 @@
 const app = new Vue ({
     el: "#root",
     data: {
+        sitePlatform: "WordPress",
         menuLinks: [
             {
                 pageName: "Home",
@@ -34,6 +35,11 @@ const app = new Vue ({
             },
         ],
         avada: {
+            copyright: {
+                companyName: "Theme Fusion",
+                themeName: "Avada Theme",
+                range: "2012-2020"
+            },
             contacts: {
                 address: {
                     info: "775 New York Ave, Brooklin, Kings, New York 11203",
@@ -53,14 +59,16 @@ const app = new Vue ({
                     os: "Android",
                     platform: { 
                         name: "Google Play",
-                        icon: "download-android.png"
+                        icon: "download-android.png",
+                        link: "#"
                     }
                 },
                 apple: {
                     os: "iOS",
                     platform: { 
                         name: "App Store",
-                        icon: "download-app-store.png"
+                        icon: "download-app-store.png",
+                        link: "#"
                     }
                 }
             },
@@ -90,7 +98,7 @@ const app = new Vue ({
                     icon: "pinterest-p",
                     socialLink: "#"
                 },
-            ]
+            ],
         }, 
         articles: [
             {

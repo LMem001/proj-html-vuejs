@@ -16,9 +16,14 @@ h4 {
   font-size: 20px;
 }
 
-h2 {
+h2, h6 {
   text-transform: uppercase;
   padding-bottom: 30px;
+}
+
+h6 {
+  color: #20ad96;
+  font-size: 18px;
 }
 
 a {
@@ -568,15 +573,18 @@ aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
   height: 100%;
 }
 
-.footer_menus i {
-  color: #afafaf;
+.footer_menus {
+  background-color: #fff;
 }
 .footer_menus .container > * {
   width: 25%;
-  padding: 15px;
+  padding: 30px;
 }
 .footer_menus .fl--space_between {
   align-items: flex-start;
+}
+.footer_menus .fl--space_between .bord-left {
+  border-left: 1px dashed #afafaf;
 }
 .footer_menus i {
   margin-right: 15px;
@@ -587,9 +595,23 @@ aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
 .footer_menus li {
   margin-bottom: 15px;
 }
+.footer_menus .logoEsocials {
+  height: 100%;
+}
 .footer_menus .logoEsocials img {
+  margin-bottom: 30px;
+}
+.footer_menus .contacts li {
   margin-bottom: 30px;
 }
 .footer_menus .socials ul {
   display: flex;
+}
+.footer_menus .apps img {
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
+  padding: 30px;
 }

@@ -16,9 +16,14 @@ h4 {
     font-size: 20px;
 }
 
-h2 {
+h2, h6 {
     text-transform: uppercase;
     padding-bottom: $box-spacing2;
+}
+
+h6 {
+    color: $brand-primary;
+    font-size: $fsize-medium;
 }
 
 a {

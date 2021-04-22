@@ -1,13 +1,14 @@
 .footer_menus {
-    i {
-        color: $brand-icons;
-    }
+    background-color: $box-background;
     .container > * { 
         width: 25%;
-        padding: $box-spacing1;
+        padding: $box-spacing2;
     }
     .fl--space_between {
         align-items: flex-start;
+        .bord-left {
+            border-left: $divider;
+        }
     }
     i {
         margin-right: $box-spacing1;
@@ -19,11 +20,23 @@
         margin-bottom: $box-spacing1;
     }
     .logoEsocials {
+        height: 100%;
         img {
             margin-bottom: $box-spacing2;
         }
     }
+    .contacts li {
+        margin-bottom: $box-spacing2;
+    }
     .socials ul {
         display: flex;
     }
+    .apps img {
+        width: 100%;
+    }
+}
+
+.copyright {
+    text-align: center;
+    padding: $box-spacing2;
 }

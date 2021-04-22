@@ -630,7 +630,7 @@
                     </div>
                     <!-- /logo and socials -->
                     <!-- menu -->
-                    <nav class="site_nav">
+                    <nav class="site_nav bord-left">
                         <ul>
                             <li v-for="page in menuLinks">
                                 <a :href="page.pageLink" :class="{ 'active': page.currentPage == true }">{{ page.pageName }}</a>
@@ -639,7 +639,7 @@
                     </nav>
                     <!-- /menu -->
                     <!-- contacts -->
-                    <div class="contacts">
+                    <div class="contacts bord-left">
                         <h6>Contact</h6>
                         <ul>
                             <li><i class="fas" :class="avada.contacts.address.icon"></i> {{ avada.contacts.address.info }} </li>
@@ -649,7 +649,8 @@
                     </div>
                     <!-- /contacts -->
                     <!-- apps -->
-                    <div class="apps">
+                    <div class="apps bord-left">
+                        <h6>Get Our App</h6>
                         <ul>
                             <li><img :src="'img/' + avada.apps.android.platform.icon" :alt="avada.apps.android.platform.name + ' app'"></li>
                             <li><img :src="'img/' + avada.apps.apple.platform.icon" :alt="avada.apps.apple.platform.name + ' app'"></li>
@@ -658,10 +659,13 @@
                     <!-- /apps -->
                 </div>
             </div>
-            <!-- /footer -->
             <!-- copyright -->
+            <div class="copyright">
+                <span>&#169; Copyright {{ avada.copyright.range }} | {{ avada.copyright.themeName }} by {{ avada.copyright.companyName }}| Powered By {{ sitePlatform }} </span>
+            </div>
             <!-- /copyright -->
         </footer>
+        <!-- /footer -->
         <script src="src/script.js"></script>
     </div>
 </body>
