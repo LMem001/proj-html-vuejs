@@ -91,6 +91,27 @@ ul {
   display: flex;
 }
 
+.buy_product {
+  position: fixed;
+  right: 100px;
+  top: 150px;
+  cursor: pointer;
+}
+.buy_product > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #afafaf;
+  z-index: 11;
+  border-radius: 10px;
+}
+.buy_product .cart {
+  margin-bottom: 15px;
+}
+
 .padding--v1 {
   padding: 50px 0;
 }
@@ -121,7 +142,7 @@ ul {
 }
 
 .showcase__half {
-  width: 48%;
+  width: 49%;
 }
 
 .exhibit_box .exhibit_box__image {

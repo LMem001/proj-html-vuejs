@@ -37,6 +37,30 @@ ul {
     display:flex;
 }
 
+//fixed items 
+
+.buy_product {
+    position:fixed;
+    right:100px;
+    top:150px;
+    cursor: pointer;
+    > *  {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 50px;
+       height: 50px;
+       background-color: $box-background;
+       box-shadow: 2px 2px 2px 2px $brand-icons;
+       z-index: 11;
+       border-radius: 10px;
+    }
+    .cart {
+        margin-bottom: $box-spacing1;
+    }
+}
+
+// padding 50 and 100 px
 @for $i from 1 through 2 {
     .padding--v#{$i} {
         padding: 50px * $i 0;
