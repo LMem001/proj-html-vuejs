@@ -119,20 +119,175 @@ const app = new Vue ({
                 }
             },
             {
-                images: [
-                    "first",
-                    "second",
-                    "third"
-                ],
+                articleLink: "#",
+                images: {
+                    imgXs:"fi-roundup-66x66.jpg",
+                    imgS:"fi-roundup-400x263.jpg",
+                    imgL: "fi-roundup-600x395.jpg",
+                    imgXl:"fi-roundup-1200x790.jpg",
+                },
                 articleInfos: {
                     author: "admin",
                     date: "March 25th, 2019",
                 },
                 articleContent: {     
-                    title: "Food Corner: Top Japanese Restaurants for Sushi",
+                    title: "RoundUp: My New Favourite Recipes For Healthy Living",
                     articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
                 }
-            }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"fi-toasts-66x66.jpg",
+                    imgS:"fi-toasts-400x263.jpg",
+                    imgL: "fi-toasts-600x395.jpg",
+                    imgXl:"fi-toasts-66x66.jpg",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Wbhy These Toasts with Tea are My New Favorite",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"Yogurt-Nan-200x132.jpg",
+                    imgS:"Yogurt-Nan-400x263.jpg",
+                    imgL: "Yogurt-Nan-600x395.jpg",
+                    imgXl:"Yogurt-Nan-img3-1200x790.jpg",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"Mixed-fruits-200x132.jpg",
+                    imgS:"Mixed-fruits-400x263.jpg",
+                    imgL: "Mixed-fruits-600x395.jpg",
+                    imgXl:"Mixed-fruits-img3-1200x790.jpg",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"r-rachel-park-366508-unsplash-min-200x132.jpg",
+                    imgS:"r-rachel-park-366508-unsplash-min-400x263.jpg",
+                    imgL: "r-rachel-park-366508-unsplash-min-600x395.jpg",
+                    imgXl:"r-rachel-park-366508-unsplash-min-img3-1200x790.jpg",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"r-michelle-tsang-500721-unsplash-min-200x132.jpg",
+                    imgS:"r-michelle-tsang-500721-unsplash-min-400x263.jpg",
+                    imgL: "r-michelle-tsang-500721-unsplash-min-600x395.jpg",
+                    imgXl:"r-michelle-tsang-500721-unsplash-min-img3-1200x790.jpg",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"",
+                    imgS:"quick-summer-drink-460x295.jpg",
+                    imgL: "",
+                    imgXl:"",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"",
+                    imgS:"r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg",
+                    imgL: "",
+                    imgXl:"",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"",
+                    imgS:"perfect-cosmopolitan-460x295.jpg",
+                    imgL: "",
+                    imgXl:"",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
+            {
+                articleLink: "#",
+                images: {
+                    imgXs:"",
+                    imgS:"r-brooke-lark-96398-unsplash-min-460x295.jpg",
+                    imgL: "",
+                    imgXl:"",
+                },
+                articleInfos: {
+                    author: "admin",
+                    date: "March 25th, 2019",
+                },
+                articleContent: {     
+                    title: "Lunch Favorite with Salad, Naan And Beans",
+                    articleBody: "Suspendisse at semper odio. Nam fringilla scelerisque tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus placerat odio non feugiat sollicitudin. Integer vitae elementum ex. Sed porttitor, diam eget convallis volutpat, arcu tellus facilisis nulla, id dignissim orci leo id diam. Vivamus tincidunt eros sed ligula ultricies tincidunt sit amet at mi. Donec pulvinar pharetra nisi, finibus euismod justo molestie vel. Nullam sit amet enim quis orci sollicitudin tincidunt non eu lorem."
+                }
+            },
         ]
     }
 })

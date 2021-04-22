@@ -59,6 +59,7 @@
             }
         }
         .exhibit_box {
+            width: calc(100% / 3);
             padding: $box-spacing1;
         }
     }

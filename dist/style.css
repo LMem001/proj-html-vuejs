@@ -284,6 +284,7 @@ ul {
   margin-bottom: 30px;
 }
 .hero .foodie_journal .exhibit_box {
+  width: calc(100% / 3);
   padding: 15px;
 }
 
