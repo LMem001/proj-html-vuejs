@@ -43,6 +43,7 @@ ul {
     position:fixed;
     right:100px;
     top:150px;
+    z-index: 11;
     cursor: pointer;
     > *  {
        display: flex;
@@ -52,7 +53,6 @@ ul {
        height: 50px;
        background-color: $box-background;
        box-shadow: 2px 2px 2px 2px $brand-icons;
-       z-index: 11;
        border-radius: 10px;
     }
     .cart {
