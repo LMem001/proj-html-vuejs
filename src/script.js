@@ -1,7 +1,13 @@
 const app = new Vue ({
     el: "#root",
     data: {
+        // host
         sitePlatform: "WordPress",
+        /* object menuLinks
+        * param pageName {string}
+        * param pageLink {string}: link to the corresponding page
+        * param currentPage {boolean}: turns true if the corresponding and the selected page are the same
+        */
         menuLinks: [
             {
                 pageName: "Home",
@@ -34,6 +40,32 @@ const app = new Vue ({
                 currentPage: false 
             },
         ],
+        /* object avada: contains all the information about the site owner
+
+        ** object copyright: copyright infos
+        ** param companyName {string}: name of the company of the owner
+        ** param themeName {string}: name of the product
+        ** param range {string}: years of ownership of the compani
+
+        ** object contacts: contains all the contacts of the owner
+        *** object address, phone, email
+        *** param info {string}: address, phone and email of the owner
+        *** param icon {string}: class name of the decorative icon
+
+        **object apps: links to mobile apps
+        *** object android, apple
+        *** param os {string}: name of the operative sistem used by the app
+        **** object platform: infos about the platform that distributes the app
+        **** param name {string}
+        **** param icon {string}: index of the image for app ad
+        **** param link {string}: link to the app
+        
+        ** param socialLinks {array}: array of object that contains infos about all the socials that the owner choosed to share
+        *** object socialLink
+        *** param name {string}: name of the shared social
+        *** param icon {string}: icon of the font awesome class
+        *** param link {string}: link to the social
+        */
         avada: {
             copyright: {
                 companyName: "Theme Fusion",
@@ -100,6 +132,21 @@ const app = new Vue ({
                 },
             ],
         }, 
+
+        /* param articles {array of objects}
+        * object article
+        * param articleLink {string}
+        ** object images: contain various image of four tipes of format
+        ** param img(Xs-S-L-Xl) {strings}: image path
+        *
+        ** obj articleInfos
+        ** param author {string}: name/nickname of the author
+        ** param date {string}: date of pubblication
+        *  
+        ** object articleContent: contains the article
+        ** param title {string}
+        ** param articleBody {string}
+        */
         articles: [
             {
                 articleLink: "#",
