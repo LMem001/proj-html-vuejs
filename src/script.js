@@ -60,7 +60,7 @@ const app = new Vue ({
                     platform: { 
                         name: "Google Play",
                         icon: "download-android.png",
-                        link: "#"
+                        link: "https://play.google.com/store"
                     }
                 },
                 apple: {
@@ -68,7 +68,7 @@ const app = new Vue ({
                     platform: { 
                         name: "App Store",
                         icon: "download-app-store.png",
-                        link: "#"
+                        link: "https://www.apple.com/it/ios/app-store/"
                     }
                 }
             },
@@ -76,27 +76,27 @@ const app = new Vue ({
                 {
                     socialName: "Facebook",
                     icon: "facebook-f",
-                    socialLink: "#"
+                    socialLink: "https://it-it.facebook.com/"
                 },
                 {
                     socialName: "Instagram",
                     icon: "instagram",
-                    socialLink: "#"
+                    socialLink: "https://www.instagram.com/"
                 },
                 {
                     socialName: "Twitter",
                     icon: "twitter",
-                    socialLink: "#"
+                    socialLink: "https://twitter.com/?lang=it"
                 },
                 {
                     socialName: "Youtube",
                     icon: "youtube",
-                    socialLink: "#"
+                    socialLink: "https://www.youtube.com/"
                 },
                 {
                     socialName: "Pinterest",
                     icon: "pinterest-p",
-                    socialLink: "#"
+                    socialLink: "https://www.pinterest.it/"
                 },
             ],
         }, 
