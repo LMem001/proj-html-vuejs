@@ -37,15 +37,15 @@ const app = new Vue ({
             contacts: {
                 address: {
                     info: "775 New York Ave, Brooklin, Kings, New York 11203",
-                    addressIcon: "fas fa-map-marker-alt",
+                    icon: "fa-map-marker-alt",
                 },
                 phone: {
                     info: "+0100-505-0000",
-                    icon: "fas fa-phone",
+                    icon: "fa-phone",
                 },
                 email: {
                     info: "info@your-domain.com",
-                    icon: "fas fa-envelope"
+                    icon: "fa-envelope"
                 }
             },
             apps: {
