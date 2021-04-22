@@ -27,6 +27,7 @@
     }
     .site_nav a.active {
         padding: 5px 0;
+        color: $brand-primary;
         border-bottom: 2px solid $brand-primary;
     }
 }

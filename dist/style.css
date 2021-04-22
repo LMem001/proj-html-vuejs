@@ -26,6 +26,10 @@ h6 {
   font-size: 18px;
 }
 
+main p {
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -218,6 +222,7 @@ ul {
 }
 .menu .site_nav a.active {
   padding: 5px 0;
+  color: #20ad96;
   border-bottom: 2px solid #20ad96;
 }
 
