@@ -49,7 +49,7 @@ const app = new Vue ({
                 }
             },
             apps: {
-                adroid: {
+                android: {
                     os: "Android",
                     platform: { 
                         name: "Google Play",

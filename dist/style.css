@@ -134,7 +134,7 @@ ul {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-image: linear-gradient(180deg, rgba(252, 117, 37, 0.3365721289) 0%, #fc7525 96%);
+  background-image: linear-gradient(180deg, rgba(32, 173, 150, 0.3) 0%, #20ad96 96%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -568,6 +568,13 @@ aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
   height: 100%;
 }
 
+.footer_menus i {
+  color: #afafaf;
+}
+.footer_menus .container > * {
+  width: 25%;
+  padding: 15px;
+}
 .footer_menus .fl--space_between {
   align-items: flex-start;
 }

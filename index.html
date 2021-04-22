@@ -26,7 +26,7 @@
             <div class="container appAndPages mr">
                 <div class="avada">
                     <ul>
-                        <li><a href="#">Download App <label class="brand_label ios" for="ios">ios</label></a></li>
+                        <li><a href="#">Download App <label class="brand_label ios" for="ios">{{ avada.apps.apple.os }}</label></a></li>
                         <li><a href="#">Advertise with us</a></li>
                     </ul>
                 </div>
@@ -641,12 +641,20 @@
                     <!-- contacts -->
                     <div class="contacts">
                         <h6>Contact</h6>
-                        <li><i class="fas" :class="avada.contacts.address.icon"></i> {{ avada.contacts.address.info }} </li>
-                        <li><i class="fas" :class="avada.contacts.phone.icon"></i> {{ avada.contacts.phone.info }}</li>
-                        <li><i class="fas" :class="avada.contacts.email.icon"></i> {{ avada.contacts.email.info }}</li>
+                        <ul>
+                            <li><i class="fas" :class="avada.contacts.address.icon"></i> {{ avada.contacts.address.info }} </li>
+                            <li><i class="fas" :class="avada.contacts.phone.icon"></i> {{ avada.contacts.phone.info }} </li>
+                            <li><i class="fas" :class="avada.contacts.email.icon"></i> {{ avada.contacts.email.info }} </li>
+                        </ul>
                     </div>
                     <!-- /contacts -->
                     <!-- apps -->
+                    <div class="apps">
+                        <ul>
+                            <li><img :src="'img/' + avada.apps.android.platform.icon" :alt="avada.apps.android.platform.name + ' app'"></li>
+                            <li><img :src="'img/' + avada.apps.apple.platform.icon" :alt="avada.apps.apple.platform.name + ' app'"></li>
+                        </ul>
+                    </div>
                     <!-- /apps -->
                 </div>
             </div>

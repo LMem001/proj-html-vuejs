@@ -1,4 +1,11 @@
 .footer_menus {
+    i {
+        color: $brand-icons;
+    }
+    .container > * { 
+        width: 25%;
+        padding: $box-spacing1;
+    }
     .fl--space_between {
         align-items: flex-start;
     }
