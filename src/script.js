@@ -33,33 +33,65 @@ const app = new Vue ({
                 currentPage: false 
             },
         ],
-        socialLinks: [
-            {
-                socialName: "Facebook",
-                icon: "facebook-f",
-                socialLink: "#"
+        avada: {
+            contacts: {
+                address: {
+                    info: "775 New York Ave, Brooklin, Kings, New York 11203",
+                    addressIcon: "fas fa-map-marker-alt",
+                },
+                phone: {
+                    info: "+0100-505-0000",
+                    icon: "fas fa-phone",
+                },
+                email: {
+                    info: "info@your-domain.com",
+                    icon: "fas fa-envelope"
+                }
             },
-            {
-                socialName: "Instagram",
-                icon: "instagram",
-                socialLink: "#"
+            apps: {
+                adroid: {
+                    os: "Android",
+                    platform: { 
+                        name: "Google Play",
+                        icon: "download-android.png"
+                    }
+                },
+                apple: {
+                    os: "iOS",
+                    platform: { 
+                        name: "App Store",
+                        icon: "download-app-store.png"
+                    }
+                }
             },
-            {
-                socialName: "Twitter",
-                icon: "twitter",
-                socialLink: "#"
-            },
-            {
-                socialName: "Youtube",
-                icon: "youtube",
-                socialLink: "#"
-            },
-            {
-                socialName: "Pinterest",
-                icon: "pinterest-p",
-                socialLink: "#"
-            },
-        ],
+            socialLinks: [
+                {
+                    socialName: "Facebook",
+                    icon: "facebook-f",
+                    socialLink: "#"
+                },
+                {
+                    socialName: "Instagram",
+                    icon: "instagram",
+                    socialLink: "#"
+                },
+                {
+                    socialName: "Twitter",
+                    icon: "twitter",
+                    socialLink: "#"
+                },
+                {
+                    socialName: "Youtube",
+                    icon: "youtube",
+                    socialLink: "#"
+                },
+                {
+                    socialName: "Pinterest",
+                    icon: "pinterest-p",
+                    socialLink: "#"
+                },
+            ]
+        }, 
         articles: [
             {
                 articleLink: "#",

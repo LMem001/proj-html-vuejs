@@ -31,8 +31,8 @@
                     </ul>
                 </div>
                 <div class="socials">
-                    <ul v-show="socialLinks.length != 0">
-                        <li v-for="social in socialLinks" v-show="social.socialName!='Pinterest'">
+                    <ul v-show="avada.socialLinks.length != 0">
+                        <li v-for="social in avada.socialLinks" v-show="social.socialName!='Pinterest'">
                             <a :href="social.socialLink">
                                 <i class="fab" :class="'fa-' + social.icon" ></i>
                             </a>
@@ -486,8 +486,8 @@
                         <!-- socials -->
                         <div class="socials padding--v1">
                             <h4>Follow Us</h4>
-                            <ul v-show="socialLinks.length != 0">
-                                <li v-for="social in socialLinks">
+                            <ul v-show="avada.socialLinks.length != 0">
+                                <li v-for="social in avada.socialLinks">
                                     <a :href="social.socialLink">
                                         <i class="fab" :class="'fa-' + social.icon" ></i>
                                     </a>
@@ -619,8 +619,8 @@
                     <div class="logoEsocials">
                         <img src="img/avada-food-logo-mob-2x-200x87.png" alt="logo">
                         <div class="socials">
-                            <ul v-show="socialLinks.length != 0">
-                                <li v-for="social in socialLinks" v-show="social.socialName!='Pinterest'">
+                            <ul v-show="avada.socialLinks.length != 0">
+                                <li v-for="social in avada.socialLinks" v-show="social.socialName!='Pinterest'">
                                     <a :href="social.socialLink">
                                         <i class="fab" :class="'fa-' + social.icon" ></i>
                                     </a>

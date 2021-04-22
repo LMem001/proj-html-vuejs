@@ -568,9 +568,11 @@ aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
   height: 100%;
 }
 
+.footer_menus .fl--space_between {
+  align-items: flex-start;
+}
 .footer_menus i {
   margin-right: 15px;
-  color: #979c9c;
 }
 .footer_menus ul {
   display: block;
@@ -580,4 +582,7 @@ aside .twitter .tweet .tweet__content .interactionsEinfos .fa-heart {
 }
 .footer_menus .logoEsocials img {
   margin-bottom: 30px;
+}
+.footer_menus .socials ul {
+  display: flex;
 }

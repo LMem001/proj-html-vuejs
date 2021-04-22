@@ -1,7 +1,9 @@
 .footer_menus {
+    .fl--space_between {
+        align-items: flex-start;
+    }
     i {
         margin-right: $box-spacing1;
-        color: #979c9c;
     }
     ul {
         display: block;
@@ -13,5 +15,8 @@
         img {
             margin-bottom: $box-spacing2;
         }
+    }
+    .socials ul {
+        display: flex;
     }
 }
